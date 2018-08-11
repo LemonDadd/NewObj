@@ -19,6 +19,8 @@
 		DA056276210A02BA00225098 /* FXShowAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA056275210A02BA00225098 /* FXShowAlertController.m */; };
 		DA05627C210A160C00225098 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05627B210A160C00225098 /* MainViewController.m */; };
 		DA056280210A187E00225098 /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05627F210A187E00225098 /* MyAlertViewController.m */; };
+		DAD1E6202110A32400720359 /* AdMobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD1E61F2110A32400720359 /* AdMobViewController.m */; };
+		DAD1E6222110B35A00720359 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD1E6212110B35A00720359 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		DA05627B210A160C00225098 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DA05627E210A187E00225098 /* MyAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
 		DA05627F210A187E00225098 /* MyAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
+		DAD1E61E2110A32400720359 /* AdMobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobViewController.h; sourceTree = "<group>"; };
+		DAD1E61F2110A32400720359 /* AdMobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobViewController.m; sourceTree = "<group>"; };
+		DAD1E6212110B35A00720359 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +145,7 @@
 				DA056281210DFF2200225098 /* Category */,
 				DA056278210A07C600225098 /* Class */,
 				DA056245210A021B00225098 /* Assets.xcassets */,
+				DAD1E6212110B35A00720359 /* GoogleService-Info.plist */,
 				DA05624A210A021B00225098 /* Info.plist */,
 				DA05624B210A021B00225098 /* main.m */,
 				DA056279210A150100225098 /* PrefixHeader.pch */,
@@ -177,6 +183,7 @@
 		DA056278210A07C600225098 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				DAD1E61D2110A2FC00720359 /* 广告 */,
 				DA05627D210A184A00225098 /* UIAlertController的封装 */,
 				DA05627A210A160C00225098 /* MainViewController.h */,
 				DA05627B210A160C00225098 /* MainViewController.m */,
@@ -219,6 +226,15 @@
 				DA056247210A021B00225098 /* LaunchScreen.storyboard */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		DAD1E61D2110A2FC00720359 /* 广告 */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1E61E2110A32400720359 /* AdMobViewController.h */,
+				DAD1E61F2110A32400720359 /* AdMobViewController.m */,
+			);
+			path = "广告";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA056249210A021B00225098 /* LaunchScreen.storyboard in Resources */,
+				DAD1E6222110B35A00720359 /* GoogleService-Info.plist in Resources */,
 				DA056246210A021B00225098 /* Assets.xcassets in Resources */,
 				DA056244210A021A00225098 /* Main.storyboard in Resources */,
 			);
@@ -399,6 +416,7 @@
 				DA05624C210A021B00225098 /* main.m in Sources */,
 				DA056280210A187E00225098 /* MyAlertViewController.m in Sources */,
 				DA05627C210A160C00225098 /* MainViewController.m in Sources */,
+				DAD1E6202110A32400720359 /* AdMobViewController.m in Sources */,
 				DA05623E210A021A00225098 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,8 +589,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObj/NewObj/PrefixHeader.pch;
+				DEVELOPMENT_TEAM = 52HKCP4F62;
+				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObjGit/NewObj/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/NewObj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -593,8 +611,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObj/NewObj/PrefixHeader.pch;
+				DEVELOPMENT_TEAM = 52HKCP4F62;
+				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObjGit/NewObj/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/NewObj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

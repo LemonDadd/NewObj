@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "MyAlertViewController.h"
+#import "AdMobViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,7 +24,8 @@
     // Do any additional setup after loading the view.
     
     //分类
-    _allResource = @[@"UIAlertController的封装"];
+    _allResource = @[@"UIAlertController的封装",
+                     @"google广告"];
     
     _mainTableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     _mainTableView.delegate = self;
@@ -60,6 +62,10 @@
     
     if (indexPath.row == 0) {
         MyAlertViewController *vc = [MyAlertViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 1) {
+        AdMobViewController *vc = [AdMobViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
