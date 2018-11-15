@@ -17,7 +17,23 @@
 #import "MJExtension.h"
 #import "IQKeyboardManager.h"
 #import "MBProgressHUD.h"
-#import <GoogleMobileAds/GADMobileAds.h>
-#import "Firebase.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "ViewSetting.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "CustomView.h"
+#import "NSDate+JKExtension.h"
+
+// 颜色
+#define kRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define kRGBAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
+#define kRandomColor kRGBColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+
+
+
+// 16进制形式
+#define kColorWithHex(hexValue) \
+[UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16)) / 255.0 \
+green:((float)((hexValue & 0xFF00) >> 8)) / 255.0 \
+blue:((float)(hexValue & 0xFF)) / 255.0 alpha:1.0]
 
 #endif /* PrefixHeader_pch */

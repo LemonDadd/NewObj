@@ -7,13 +7,10 @@
 //
 
 #import "MainViewController.h"
-#import "MyAlertViewController.h"
-#import "AdMobViewController.h"
+#import "OneViewController.h"
+#import <SafariServices/SafariServices.h>
 
-@interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
-
-@property (nonatomic, strong) UITableView *mainTableView;
-@property (nonatomic, strong) NSArray * allResource;
+@interface MainViewController ()<SFSafariViewControllerDelegate>
 
 @end
 
@@ -22,52 +19,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    //分类
-    _allResource = @[@"UIAlertController的封装",
-                     @"google广告"];
-    
-    _mainTableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
-    _mainTableView.delegate = self;
-    _mainTableView.dataSource = self;
-    [self.view addSubview:_mainTableView];
-    [_mainTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+    self.view.backgroundColor = [UIColor whiteColor];
+    kWeakSelf(self);
+    AVQuery *query = [AVQuery queryWithClassName:@"config"];
+    [query getObjectInBackgroundWithId:@"5be84706ee920a006680bfd6" block:^(AVObject * _Nullable object, NSError * _Nullable error) {
+        BOOL swich = [object[@"swich"] boolValue];
+        if (swich) {
+            [weakself gotoWebView:object[@"url"]];
+        }else {
+            OneViewController *vc =[[OneViewController alloc]init];
+            UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+            nav.navigationBarHidden = YES;
+            [UIApplication sharedApplication].delegate.window.rootViewController = nav;
+        }
     }];
     
-}
-
-
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _allResource.count;
-}
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath  {
-    
-    static NSString *identifier = @"cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-    }
-    cell.textLabel.text = _allResource[indexPath.row];
-    return cell;
     
     
 }
 
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+- (void)gotoWebView:(NSString *)url {
+    SFSafariViewController *safariVC = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:url]];
+    [UIApplication sharedApplication].delegate.window.rootViewController = safariVC;
+}
+
+-(void)safariViewControllerDidFinish:(SFSafariViewController *)controller {
     
-    if (indexPath.row == 0) {
-        MyAlertViewController *vc = [MyAlertViewController new];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    if (indexPath.row == 1) {
-        AdMobViewController *vc = [AdMobViewController new];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
 }
 
 - (void)didReceiveMemoryWarning {

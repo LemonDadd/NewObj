@@ -9,9 +9,7 @@ target 'NewObj' do
   pod 'MJExtension'
   pod 'IQKeyboardManager'                                 #键盘处理
   pod 'DeviceInfo'                                        #DeviceInfo
-  pod 'MBProgressHUD', '~> 0.9.2'   
-  pod 'Google-Mobile-Ads-SDK'                                   #google广告
-  pod 'Firebase/Core'
-  
-  
+  pod 'MBProgressHUD', '~> 0.9.2'
+  pod 'AVOSCloud'
+  pod 'JPush'
 end

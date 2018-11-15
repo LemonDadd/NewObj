@@ -19,8 +19,29 @@
 		DA056276210A02BA00225098 /* FXShowAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA056275210A02BA00225098 /* FXShowAlertController.m */; };
 		DA05627C210A160C00225098 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05627B210A160C00225098 /* MainViewController.m */; };
 		DA056280210A187E00225098 /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05627F210A187E00225098 /* MyAlertViewController.m */; };
-		DAD1E6202110A32400720359 /* AdMobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD1E61F2110A32400720359 /* AdMobViewController.m */; };
-		DAD1E6222110B35A00720359 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAD1E6212110B35A00720359 /* GoogleService-Info.plist */; };
+		DA19007B219AFFDF00BBCA45 /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190072219AFFDF00BBCA45 /* HttpHelper.m */; };
+		DA19007C219AFFDF00BBCA45 /* HttpHelpBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190075219AFFDF00BBCA45 /* HttpHelpBase.m */; };
+		DA190082219B018800BBCA45 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190080219B018800BBCA45 /* OneViewController.m */; };
+		DA190083219B018800BBCA45 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA190081219B018800BBCA45 /* OneViewController.xib */; };
+		DA190088219B0CCB00BBCA45 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190086219B0CCB00BBCA45 /* MyTableViewCell.m */; };
+		DA190089219B0CCB00BBCA45 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA190087219B0CCB00BBCA45 /* MyTableViewCell.xib */; };
+		DA19008B219B1F0200BBCA45 /* HYQuangTangShiTiJ.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA19008A219B1F0100BBCA45 /* HYQuangTangShiTiJ.ttf */; };
+		DA190090219B24E100BBCA45 /* JsonDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = DA19008E219B24E000BBCA45 /* JsonDeal.m */; };
+		DA190094219B251300BBCA45 /* AllInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190093219B251300BBCA45 /* AllInterface.m */; };
+		DA190097219B262B00BBCA45 /* OneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190096219B262B00BBCA45 /* OneModel.m */; };
+		DA19009B219B271000BBCA45 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA190099219B271000BBCA45 /* BaseModel.m */; };
+		DAE70A1C219C4ECC0081D5E9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A1A219C4ECC0081D5E9 /* DetailViewController.m */; };
+		DAE70A1D219C4ECC0081D5E9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE70A1B219C4ECC0081D5E9 /* DetailViewController.xib */; };
+		DAE70A24219C5BCC0081D5E9 /* JhlvShowAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A22219C5BCB0081D5E9 /* JhlvShowAlertController.m */; };
+		DAE70A25219C5BCC0081D5E9 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A23219C5BCB0081D5E9 /* CustomView.m */; };
+		DAE70A37219C6BF60081D5E9 /* NSDate+JKLunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A2B219C6BF50081D5E9 /* NSDate+JKLunarCalendar.m */; };
+		DAE70A38219C6BF60081D5E9 /* NSDate+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A2D219C6BF50081D5E9 /* NSDate+JKExtension.m */; };
+		DAE70A39219C6BF60081D5E9 /* NSDate+JKInternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A2E219C6BF50081D5E9 /* NSDate+JKInternetDateTime.m */; };
+		DAE70A3A219C6BF60081D5E9 /* NSDate+JKFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A2F219C6BF50081D5E9 /* NSDate+JKFormatter.m */; };
+		DAE70A3B219C6BF60081D5E9 /* NSDate+JKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A30219C6BF50081D5E9 /* NSDate+JKUtilities.m */; };
+		DAE70A3C219C6BF60081D5E9 /* NSDate+JKReporting.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A31219C6BF50081D5E9 /* NSDate+JKReporting.m */; };
+		DAE70A3D219C6BF60081D5E9 /* NSDate+JKZeroDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A32219C6BF50081D5E9 /* NSDate+JKZeroDate.m */; };
+		DAE70A3E219C6BF60081D5E9 /* NSDate+JKCupertinoYankee.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE70A36219C6BF50081D5E9 /* NSDate+JKCupertinoYankee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +88,50 @@
 		DA05627B210A160C00225098 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DA05627E210A187E00225098 /* MyAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
 		DA05627F210A187E00225098 /* MyAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
-		DAD1E61E2110A32400720359 /* AdMobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobViewController.h; sourceTree = "<group>"; };
-		DAD1E61F2110A32400720359 /* AdMobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobViewController.m; sourceTree = "<group>"; };
-		DAD1E6212110B35A00720359 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA1900702199C71F00BBCA45 /* ViewSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewSetting.h; sourceTree = "<group>"; };
+		DA190072219AFFDF00BBCA45 /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
+		DA190073219AFFDF00BBCA45 /* HttpHelpBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelpBase.h; sourceTree = "<group>"; };
+		DA190074219AFFDF00BBCA45 /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
+		DA190075219AFFDF00BBCA45 /* HttpHelpBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelpBase.m; sourceTree = "<group>"; };
+		DA19007F219B018800BBCA45 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		DA190080219B018800BBCA45 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		DA190081219B018800BBCA45 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		DA190085219B0CCB00BBCA45 /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		DA190086219B0CCB00BBCA45 /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		DA190087219B0CCB00BBCA45 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		DA19008A219B1F0100BBCA45 /* HYQuangTangShiTiJ.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYQuangTangShiTiJ.ttf; sourceTree = "<group>"; };
+		DA19008E219B24E000BBCA45 /* JsonDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonDeal.m; sourceTree = "<group>"; };
+		DA19008F219B24E000BBCA45 /* JsonDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonDeal.h; sourceTree = "<group>"; };
+		DA190092219B251300BBCA45 /* AllInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllInterface.h; sourceTree = "<group>"; };
+		DA190093219B251300BBCA45 /* AllInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllInterface.m; sourceTree = "<group>"; };
+		DA190095219B262B00BBCA45 /* OneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneModel.h; sourceTree = "<group>"; };
+		DA190096219B262B00BBCA45 /* OneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneModel.m; sourceTree = "<group>"; };
+		DA190099219B271000BBCA45 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		DA19009A219B271000BBCA45 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DAE70A17219C43430081D5E9 /* NewObj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewObj.entitlements; sourceTree = "<group>"; };
+		DAE70A19219C4ECC0081D5E9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DAE70A1A219C4ECC0081D5E9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DAE70A1B219C4ECC0081D5E9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		DAE70A20219C5BCB0081D5E9 /* JhlvShowAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhlvShowAlertController.h; sourceTree = "<group>"; };
+		DAE70A21219C5BCB0081D5E9 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		DAE70A22219C5BCB0081D5E9 /* JhlvShowAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JhlvShowAlertController.m; sourceTree = "<group>"; };
+		DAE70A23219C5BCB0081D5E9 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		DAE70A27219C6BF50081D5E9 /* NSDate+JKZeroDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKZeroDate.h"; sourceTree = "<group>"; };
+		DAE70A28219C6BF50081D5E9 /* NSDate+JKReporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKReporting.h"; sourceTree = "<group>"; };
+		DAE70A29219C6BF50081D5E9 /* NSDate+JKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKUtilities.h"; sourceTree = "<group>"; };
+		DAE70A2A219C6BF50081D5E9 /* NSDate+JKFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKFormatter.h"; sourceTree = "<group>"; };
+		DAE70A2B219C6BF50081D5E9 /* NSDate+JKLunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKLunarCalendar.m"; sourceTree = "<group>"; };
+		DAE70A2C219C6BF50081D5E9 /* NSDate+JKCupertinoYankee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKCupertinoYankee.h"; sourceTree = "<group>"; };
+		DAE70A2D219C6BF50081D5E9 /* NSDate+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKExtension.m"; sourceTree = "<group>"; };
+		DAE70A2E219C6BF50081D5E9 /* NSDate+JKInternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKInternetDateTime.m"; sourceTree = "<group>"; };
+		DAE70A2F219C6BF50081D5E9 /* NSDate+JKFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKFormatter.m"; sourceTree = "<group>"; };
+		DAE70A30219C6BF50081D5E9 /* NSDate+JKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKUtilities.m"; sourceTree = "<group>"; };
+		DAE70A31219C6BF50081D5E9 /* NSDate+JKReporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKReporting.m"; sourceTree = "<group>"; };
+		DAE70A32219C6BF50081D5E9 /* NSDate+JKZeroDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKZeroDate.m"; sourceTree = "<group>"; };
+		DAE70A33219C6BF50081D5E9 /* NSDate+JKLunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKLunarCalendar.h"; sourceTree = "<group>"; };
+		DAE70A34219C6BF50081D5E9 /* NSDate+JKInternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKInternetDateTime.h"; sourceTree = "<group>"; };
+		DAE70A35219C6BF50081D5E9 /* NSDate+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKExtension.h"; sourceTree = "<group>"; };
+		DAE70A36219C6BF50081D5E9 /* NSDate+JKCupertinoYankee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKCupertinoYankee.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,15 +202,22 @@
 		DA05623B210A021A00225098 /* NewObj */ = {
 			isa = PBXGroup;
 			children = (
+				DAE70A26219C6BF50081D5E9 /* NSDate */,
+				DAE70A1F219C5BCB0081D5E9 /* CustomView */,
+				DAE70A17219C43430081D5E9 /* NewObj.entitlements */,
+				DA190098219B271000BBCA45 /* BaseModel */,
+				DA19008D219B24E000BBCA45 /* JsonDeal */,
+				DA190071219AFFDF00BBCA45 /* HttpHelp */,
 				DA056283210DFF8500225098 /* Xib */,
 				DA056282210DFF6500225098 /* AppDelegate */,
 				DA056281210DFF2200225098 /* Category */,
 				DA056278210A07C600225098 /* Class */,
 				DA056245210A021B00225098 /* Assets.xcassets */,
-				DAD1E6212110B35A00720359 /* GoogleService-Info.plist */,
 				DA05624A210A021B00225098 /* Info.plist */,
 				DA05624B210A021B00225098 /* main.m */,
+				DA1900702199C71F00BBCA45 /* ViewSetting.h */,
 				DA056279210A150100225098 /* PrefixHeader.pch */,
+				DA19008A219B1F0100BBCA45 /* HYQuangTangShiTiJ.ttf */,
 			);
 			path = NewObj;
 			sourceTree = "<group>";
@@ -183,8 +252,8 @@
 		DA056278210A07C600225098 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DAD1E61D2110A2FC00720359 /* 广告 */,
-				DA05627D210A184A00225098 /* UIAlertController的封装 */,
+				DAE70A18219C4EAA0081D5E9 /* DetailViewController */,
+				DA1900672199C65000BBCA45 /* OneViewController */,
 				DA05627A210A160C00225098 /* MainViewController.h */,
 				DA05627B210A160C00225098 /* MainViewController.m */,
 			);
@@ -203,6 +272,7 @@
 		DA056281210DFF2200225098 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DA05627D210A184A00225098 /* UIAlertController的封装 */,
 				DA056270210A02A600225098 /* FXShowAlertController */,
 			);
 			path = Category;
@@ -228,13 +298,118 @@
 			path = Xib;
 			sourceTree = "<group>";
 		};
-		DAD1E61D2110A2FC00720359 /* 广告 */ = {
+		DA1900672199C65000BBCA45 /* OneViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DAD1E61E2110A32400720359 /* AdMobViewController.h */,
-				DAD1E61F2110A32400720359 /* AdMobViewController.m */,
+				DA190091219B24F600BBCA45 /* AllInterface */,
+				DA19008C219B24A200BBCA45 /* Model */,
+				DA190084219B0CB100BBCA45 /* Cell */,
+				DA19007F219B018800BBCA45 /* OneViewController.h */,
+				DA190080219B018800BBCA45 /* OneViewController.m */,
+				DA190081219B018800BBCA45 /* OneViewController.xib */,
 			);
-			path = "广告";
+			path = OneViewController;
+			sourceTree = "<group>";
+		};
+		DA190071219AFFDF00BBCA45 /* HttpHelp */ = {
+			isa = PBXGroup;
+			children = (
+				DA190074219AFFDF00BBCA45 /* HttpHelper.h */,
+				DA190072219AFFDF00BBCA45 /* HttpHelper.m */,
+				DA190073219AFFDF00BBCA45 /* HttpHelpBase.h */,
+				DA190075219AFFDF00BBCA45 /* HttpHelpBase.m */,
+			);
+			path = HttpHelp;
+			sourceTree = "<group>";
+		};
+		DA190084219B0CB100BBCA45 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA190085219B0CCB00BBCA45 /* MyTableViewCell.h */,
+				DA190086219B0CCB00BBCA45 /* MyTableViewCell.m */,
+				DA190087219B0CCB00BBCA45 /* MyTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA19008C219B24A200BBCA45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA190095219B262B00BBCA45 /* OneModel.h */,
+				DA190096219B262B00BBCA45 /* OneModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA19008D219B24E000BBCA45 /* JsonDeal */ = {
+			isa = PBXGroup;
+			children = (
+				DA19008E219B24E000BBCA45 /* JsonDeal.m */,
+				DA19008F219B24E000BBCA45 /* JsonDeal.h */,
+			);
+			path = JsonDeal;
+			sourceTree = "<group>";
+		};
+		DA190091219B24F600BBCA45 /* AllInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DA190092219B251300BBCA45 /* AllInterface.h */,
+				DA190093219B251300BBCA45 /* AllInterface.m */,
+			);
+			path = AllInterface;
+			sourceTree = "<group>";
+		};
+		DA190098219B271000BBCA45 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA190099219B271000BBCA45 /* BaseModel.m */,
+				DA19009A219B271000BBCA45 /* BaseModel.h */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		DAE70A18219C4EAA0081D5E9 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAE70A19219C4ECC0081D5E9 /* DetailViewController.h */,
+				DAE70A1A219C4ECC0081D5E9 /* DetailViewController.m */,
+				DAE70A1B219C4ECC0081D5E9 /* DetailViewController.xib */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		DAE70A1F219C5BCB0081D5E9 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				DAE70A20219C5BCB0081D5E9 /* JhlvShowAlertController.h */,
+				DAE70A21219C5BCB0081D5E9 /* CustomView.h */,
+				DAE70A22219C5BCB0081D5E9 /* JhlvShowAlertController.m */,
+				DAE70A23219C5BCB0081D5E9 /* CustomView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		DAE70A26219C6BF50081D5E9 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				DAE70A27219C6BF50081D5E9 /* NSDate+JKZeroDate.h */,
+				DAE70A28219C6BF50081D5E9 /* NSDate+JKReporting.h */,
+				DAE70A29219C6BF50081D5E9 /* NSDate+JKUtilities.h */,
+				DAE70A2A219C6BF50081D5E9 /* NSDate+JKFormatter.h */,
+				DAE70A2B219C6BF50081D5E9 /* NSDate+JKLunarCalendar.m */,
+				DAE70A2C219C6BF50081D5E9 /* NSDate+JKCupertinoYankee.h */,
+				DAE70A2D219C6BF50081D5E9 /* NSDate+JKExtension.m */,
+				DAE70A2E219C6BF50081D5E9 /* NSDate+JKInternetDateTime.m */,
+				DAE70A2F219C6BF50081D5E9 /* NSDate+JKFormatter.m */,
+				DAE70A30219C6BF50081D5E9 /* NSDate+JKUtilities.m */,
+				DAE70A31219C6BF50081D5E9 /* NSDate+JKReporting.m */,
+				DAE70A32219C6BF50081D5E9 /* NSDate+JKZeroDate.m */,
+				DAE70A33219C6BF50081D5E9 /* NSDate+JKLunarCalendar.h */,
+				DAE70A34219C6BF50081D5E9 /* NSDate+JKInternetDateTime.h */,
+				DAE70A35219C6BF50081D5E9 /* NSDate+JKExtension.h */,
+				DAE70A36219C6BF50081D5E9 /* NSDate+JKCupertinoYankee.m */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +481,11 @@
 				TargetAttributes = {
 					DA056238210A021A00225098 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					DA056250210A021C00225098 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -342,10 +522,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA190089219B0CCB00BBCA45 /* MyTableViewCell.xib in Resources */,
 				DA056249210A021B00225098 /* LaunchScreen.storyboard in Resources */,
-				DAD1E6222110B35A00720359 /* GoogleService-Info.plist in Resources */,
+				DAE70A1D219C4ECC0081D5E9 /* DetailViewController.xib in Resources */,
 				DA056246210A021B00225098 /* Assets.xcassets in Resources */,
 				DA056244210A021A00225098 /* Main.storyboard in Resources */,
+				DA190083219B018800BBCA45 /* OneViewController.xib in Resources */,
+				DA19008B219B1F0200BBCA45 /* HYQuangTangShiTiJ.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,11 +574,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NewObj/Pods-NewObj-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
@@ -411,13 +596,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE70A37219C6BF60081D5E9 /* NSDate+JKLunarCalendar.m in Sources */,
 				DA056241210A021A00225098 /* ViewController.m in Sources */,
 				DA056276210A02BA00225098 /* FXShowAlertController.m in Sources */,
+				DA190082219B018800BBCA45 /* OneViewController.m in Sources */,
 				DA05624C210A021B00225098 /* main.m in Sources */,
 				DA056280210A187E00225098 /* MyAlertViewController.m in Sources */,
+				DAE70A24219C5BCC0081D5E9 /* JhlvShowAlertController.m in Sources */,
+				DAE70A1C219C4ECC0081D5E9 /* DetailViewController.m in Sources */,
 				DA05627C210A160C00225098 /* MainViewController.m in Sources */,
-				DAD1E6202110A32400720359 /* AdMobViewController.m in Sources */,
+				DA19007C219AFFDF00BBCA45 /* HttpHelpBase.m in Sources */,
+				DAE70A3A219C6BF60081D5E9 /* NSDate+JKFormatter.m in Sources */,
+				DAE70A3D219C6BF60081D5E9 /* NSDate+JKZeroDate.m in Sources */,
+				DA190097219B262B00BBCA45 /* OneModel.m in Sources */,
+				DAE70A39219C6BF60081D5E9 /* NSDate+JKInternetDateTime.m in Sources */,
+				DA190090219B24E100BBCA45 /* JsonDeal.m in Sources */,
+				DA19007B219AFFDF00BBCA45 /* HttpHelper.m in Sources */,
+				DAE70A3C219C6BF60081D5E9 /* NSDate+JKReporting.m in Sources */,
+				DA19009B219B271000BBCA45 /* BaseModel.m in Sources */,
+				DAE70A3B219C6BF60081D5E9 /* NSDate+JKUtilities.m in Sources */,
 				DA05623E210A021A00225098 /* AppDelegate.m in Sources */,
+				DA190088219B0CCB00BBCA45 /* MyTableViewCell.m in Sources */,
+				DA190094219B251300BBCA45 /* AllInterface.m in Sources */,
+				DAE70A3E219C6BF60081D5E9 /* NSDate+JKCupertinoYankee.m in Sources */,
+				DAE70A38219C6BF60081D5E9 /* NSDate+JKExtension.m in Sources */,
+				DAE70A25219C5BCC0081D5E9 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,8 +790,9 @@
 			baseConfigurationReference = CB4CC8F8CBC25FCE81FB6634 /* Pods-NewObj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NewObj/NewObj.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 52HKCP4F62;
 				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObjGit/NewObj/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/NewObj/Info.plist";
@@ -599,7 +803,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.NewObj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = new;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -609,8 +813,9 @@
 			baseConfigurationReference = 707C27831B1601F779BC9ACB /* Pods-NewObj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = NewObj/NewObj.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 52HKCP4F62;
 				GCC_PREFIX_HEADER = /Users/guanyunxiu/Desktop/NewObjGit/NewObj/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/NewObj/Info.plist";
@@ -621,7 +826,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fx.NewObj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = adhoc;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
